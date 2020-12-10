@@ -11,6 +11,4 @@ app.get("/apps", (req, res) => {
   res.json(apps);
 });
 
-app.listen(8003, () => {
-  console.log("Server started at http://localhost:8003");
-});
+module.exports = app;
